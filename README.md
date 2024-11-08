@@ -50,6 +50,8 @@ in your web browser.
 The Dockerfile used to build this image is located in the root directory of this project. It uses the official OpenJDK
 24 image as the base image and copies the `my-spring-app-demo.jar` file into the image. It also exposes port 8080 and
 sets the default command to run the application using Java.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 ## Old Way(NOT RECOMMENDED): Steps to Create a New Image with a JAR File
 
