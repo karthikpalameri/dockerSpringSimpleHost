@@ -1,4 +1,4 @@
-## Steps to Modify a Container and Create a New Image
+## Steps to Modify a Container and Create a New Image Using Command Way 
 
 Follow these steps to put a JAR file into a container and create a new image to share with your team or others:
 
