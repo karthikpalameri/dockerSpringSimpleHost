@@ -1,4 +1,4 @@
-## Steps to Modify a Container and Create a New Image
+## Steps to Modify a Container and Create a New Image Using Command Way 
 
 My Spring App Demo
 ======================
