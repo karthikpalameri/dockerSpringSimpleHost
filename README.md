@@ -15,12 +15,17 @@ Requirements
 
 ### Building the Docker Image
 
-To build the Docker image, run the following command from the root directory of this project:
+To build the Docker image, first run the following Maven command to install the application:
+
+```bash
+mvn install
+```
+
+Then, run the following command from the root directory of this project to build the Docker image:
 
 ```bash
 docker build -t kk/my-spring-app-demo:v3 .
 ```
-
 # Build the Docker image
 
 docker build -t kk/my-spring-app-demo:v3 .
@@ -36,7 +41,7 @@ docker run -p 8080:8080 kk/my-spring-app-demo:v3
 
 To start the container and map port 8080 on your local machine to port 8080 in the container, run the following command:
 
-```bash
+
 docker run -p 8080:8080 kk/my-spring-app-demo:v3
 ```
 
